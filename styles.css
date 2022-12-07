@@ -1,0 +1,52 @@
+:root {
+    --main-color: #7755FE;
+    --hover-color: #6447da;
+    --main-font: "Poppins", sans;
+}
+
+.home-page-content {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.hero-greeting {
+    font-family: var(--main-font);
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero {
+    flex-direction: row;
+    margin: 250px 136px;
+    gap: 80px;
+}
+
+.hero-content-wrapper {
+    flex-direction: column;
+}
+
+.hero-contact {
+    margin-top: 32px;
+}
+
+.hero-contact-link {
+    font-size: 18;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: var(--main-color);
+    border-radius: 32px;
+    padding: 4px 8px 4px 16px;
+    
+}
+
+.hero-contact-link:hover {
+    color: white;
+    background-color: var(--hover-color);
+}
+
+.profile-pic {
+    max-width: 285px;
+    align-self: flex-end;
+}
