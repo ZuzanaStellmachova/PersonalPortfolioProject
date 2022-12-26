@@ -4,14 +4,11 @@
     --main-font: "Poppins", sans;
 }
 
-body {
-    max-width: max-content;
-}
-
 .home-page-content {
+    margin-left: 4em;
     font-family: var(--main-font);
     font-weight: 400;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .hero-greeting {
@@ -21,9 +18,13 @@ body {
 }
 
 .hero {
-    margin: 250px 136px;
+    margin-top: 250px;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
+    align-items: flex-start;
     gap: 80px;
+    font-size: 32px;
 }
 
 .hero-content-wrapper {
@@ -56,3 +57,21 @@ body {
     display: flex;
     align-self: flex-end;
 }
+
+.projects-content {
+    display: flex;
+    flex-direction: column;
+}
+.section-heading {
+    font-size: 48px;
+    font-weight: bolder ;
+    margin: 80px auto 40px auto;
+}
+.skills-certificates-wrapper {
+    font-size: 20px;
+}
+
+.project-picture {
+    max-width: 300px;
+}
+
