@@ -17,7 +17,7 @@
 }
 
 .hero {
-    /* padding-left: 40px; */
+    margin-left: 60px;
     margin-top: 170px;
     justify-content: center;
     align-items: center;
@@ -74,15 +74,16 @@
 
 .project-row {
 margin-top: 110px;
+/* column-gap: 40px; */
 }
 
 .project-row:first-child {
     margin-top: 35px;
 }
 
-.projects-content.col {
-    gap: 103px;
-}
+/* .projects-content.col {
+    column-gap: 103px;
+} */
 
 .project-item {
     display: inline-block;
@@ -103,31 +104,49 @@ margin-top: 110px;
 .section-heading {
     font-size: 48px;
     font-weight: bolder ;
-    margin: 80px auto 40px auto;
+    margin: 80px auto 68px auto;
     text-align: center;
 }
 .skills-certificates-wrapper {
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
+    row-gap: 50px;
+    margin-bottom: 70px;
 }
 
 .skill-column {
     align-items: left;
 }
 
+.skill-row {
+    justify-content: center;
+    column-gap: 230px;
+
+}
+
 .skill-heading {
     font-weight: bold;
     font-size: 24px;
     margin: 0;
+    text-align: left;
 }
 
 .skill-description {
+    text-align: left;
     margin: 0;
+    gap: 10px;
+}
+
+.skill-image {
+    max-width: 40px;
 }
 
 footer {
     text-align: center;
     font-size: 24px;
+    margin-bottom: 50px;
 }
 
