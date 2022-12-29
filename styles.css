@@ -155,7 +155,10 @@ margin-top: 110px;
 }
 
 .milestone {
-    margin-top: 35px;
+    margin-top: 65px;
+    row-gap: 10px;
+    display: grid;
+
 }
 
 .milestones-wrapper {
@@ -163,7 +166,7 @@ margin-top: 110px;
 }
 
 .milestone-headline {
-    align-items: baseline;
+    align-items: flex-end;
     justify-content: center;
 }
 
@@ -175,7 +178,7 @@ margin-top: 110px;
 
 .milestone-year {
     font-size: 18px;
-    vertical-align: bottom;
+    margin-bottom: 8px;
 }
 
 footer {
