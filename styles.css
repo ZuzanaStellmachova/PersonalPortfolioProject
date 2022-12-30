@@ -471,5 +471,153 @@ footer {
     }
 }
 
+/* ------------------------------------------------------------------------ */
+/* mobile */
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .page-content {
+        font-size: 16px;
+        /* margin: 0 60px; */
+    }
+
+    .hero-greeting {
+        font-size: 25px;
+    }
+
+    .hero {
+        margin-top: 60px;
+        font-size: 16px;
+        gap: 0px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .profile-pic {
+        max-width: 150px;
+        display: flex;
+        align-self: flex-end;
+        margin: 0 40px 0 10px;
+    }
+
+    .hero-contact-link {
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+        background-color: var(--main-color);
+        border-radius: 32px;
+        padding: 8px 12px 8px 20px; 
+    }
+
+    .section-heading {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+        
+    .section-description {
+        font-size: 16px;
+    }
+    
+    .projects-content {
+        margin-left: 0px;
+    }
+
+    .project-name {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    .project-row {
+        margin-top: 40px;
+    }
+
+    .project-date {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.5);
+        margin: 7px 0;
+    }
+
+    .project-logo {
+        max-width: 55px;
+    }
+    
+    .project-picture {
+        max-width: 100%;
+        vertical-align: middle;
+        padding: 0;
+    }
+    
+    .skills-certificates-wrapper {
+        font-size: 18px;
+        row-gap: 50px;
+        margin-left: 20px;
+    }
+    
+    .skill-column {
+        align-items: left;
+    }
+    
+    .skill-row {
+        justify-content: center;    
+    }
+    
+    .skill-heading {
+        font-weight: bold;
+        font-size: 24px;
+        margin: 0;
+        text-align: left;
+    }
+    
+    .skill-description {
+        text-align: left;
+        margin: 0;
+        gap: 10px;
+    }
+    
+    .skill-image {
+        max-width: 40px;
+    }
+    
+    .story-heading {
+        margin-bottom: 27px;
+    }
+    
+    .milestone {
+        margin-top: 45px;
+        row-gap: 10px;
+        display: grid;
+    
+    }
+    
+    .milestones-wrapper {
+        margin-top: 80px;
+    }
+    
+    .milestone-headline {
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    .milestone-name {
+        padding: 0;
+        font-weight: bolder;
+        font-size: 24px;
+    }
+    
+    .milestone-year {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    
+    footer {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+}
 
 
