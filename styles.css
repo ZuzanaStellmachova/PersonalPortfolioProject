@@ -98,6 +98,10 @@ body {
     font-size: 40px;
 }
 
+.project-logo {
+    max-height: 50px;
+}
+
 .project-row {
 margin-top: 110px;
 /* column-gap: 20px; */
@@ -132,7 +136,6 @@ margin-top: 110px;
     font-size: 18px;
     text-align: center;
     align-items: center;
-    /* row-gap: 50px; */
     margin-left: 200px;
 }
 
@@ -154,12 +157,20 @@ margin-top: 110px;
 
 .skill-description {
     text-align: left;
-    margin: 0;
+    margin: 0 0 10px 0;
     gap: 10px;
+    align-items: center;
 }
 
 .skill-image {
     max-height: 80px;
+}
+.skill-image-js {
+    max-height: 70px;
+}
+
+.skill-image-vscode {
+    max-height: 60px;
 }
 
 .story-heading {
@@ -298,12 +309,22 @@ footer {
     
     .skill-description {
         text-align: left;
-        margin: 0;
+        margin: 0 0 10px 0;
         gap: 10px;
+        align-items: center;
     }
     
     .skill-image {
         max-height: 80px;
+    }
+
+    .skill-image-vscode {
+        max-height: 60px;
+        align-self: baseline;
+    }
+
+    .skill-image-js {
+        max-height: 70px;
     }
     
     .story-heading {
@@ -446,10 +467,19 @@ footer {
         text-align: left;
         margin: 0;
         gap: 10px;
+        align-items: center;
     }
     
     .skill-image {
         max-height: 80px;
+    }
+
+    .skill-image-js {
+        max-height: 70px;
+    }
+
+    .skill-image-vscode {
+        max-height: 60px;
     }
     
     .story-heading {
@@ -622,17 +652,25 @@ footer {
         margin-top: 30px;
         text-align: left;
     }
-
     
     .skill-description {
         text-align: left;
         margin: 0;
         gap: 10px;
         font-size: 16px;
+        align-items: center;
     }
     
     .skill-image {
-        max-height: 80px;
+        max-height: 70px;
+    }
+
+    .skill-image-vscode {
+        max-height: 50px;
+    }
+
+    .skill-image-js {
+        max-height: 60px;
     }
     
     .story-heading {
@@ -818,12 +856,21 @@ footer {
         margin: 6px 10px 0 0;
         gap: 10px;
         font-size: 16px;
+        align-items: center;
     }
     
     .skill-image {
-        max-height: 80px;
+        max-height: 60px;
     }
     
+    .skill-image-vscode {
+        max-height: 40px;
+    }
+
+    .skill-image-js {
+        max-height: 50px;
+    }
+
     .story-heading {
         margin-bottom: 27px;
     }
