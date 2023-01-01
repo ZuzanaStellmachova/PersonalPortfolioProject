@@ -17,6 +17,10 @@ body {
     font-family: var(--main-font);
 }
 
+.navbar-brand {
+    font-family: var(--main-font);
+}
+
 .hero-greeting {
     font-family: var(--main-font);
     font-weight: 900;
@@ -178,6 +182,14 @@ margin-top: 110px;
     justify-content: center;
 }
 
+.milestone-logo-img {
+    max-height: 60px;
+}
+
+.milestone-logo-img-aiesec {
+    max-height: 40px;
+}
+
 .milestone-name {
     padding: 0;
     font-weight: bolder;
@@ -313,7 +325,14 @@ footer {
         align-items: flex-end;
         justify-content: center;
     }
-    
+    .milestone-logo-img {
+        max-height: 50px
+    }
+
+    .milestone-logo-img-aiesec {
+        max-height: 30px;
+    }
+
     .milestone-name {
         padding: 0;
         font-weight: bolder;
@@ -441,7 +460,6 @@ footer {
         margin-top: 45px;
         row-gap: 10px;
         display: grid;
-    
     }
     
     .milestones-wrapper {
@@ -451,6 +469,14 @@ footer {
     .milestone-headline {
         align-items: flex-end;
         justify-content: center;
+    }
+
+    .milestone-logo-img {
+        max-height: 40px;
+    }
+
+    .milestone-logo-img-aiesec {
+        max-height: 25px;
     }
     
     .milestone-name {
@@ -634,6 +660,14 @@ footer {
         font-weight: bolder;
         font-size: 20px;
         margin-bottom: 0;
+    }
+
+    .milestone-logo-img {
+        max-height: 30px;
+    }
+
+    .milestone-logo-img-aiesec {
+        max-height: 20px;
     }
     
     .milestone-year {
@@ -822,7 +856,11 @@ footer {
         /* padding: 0 0 3px 20px; */
     }
     .milestone-logo-img {
-        max-height: 40px;
+        max-height: 30px;
+    }
+
+    .milestone-logo-img-aiesec {
+        max-height: 20px;
     }
     
     footer {
