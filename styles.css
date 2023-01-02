@@ -1,7 +1,7 @@
 :root {
     --main-color: #7755FE;
     --hover-color: #6447da;
-    --background-color: #7755fe07;
+    --background-color: #f7f7fc;
     --main-font: "Poppins", sans;
 }
 body {
@@ -23,6 +23,17 @@ body {
     font-family: var(--main-font);
     font-weight: bold;
     color: var(--main-color);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .hero-greeting {
