@@ -86,7 +86,7 @@ body {
 .projects-content {
     display: flex;
     flex-direction: column;
-    margin-left: -40px;
+    /* margin-left: -40px; */
 }
 
 .row {
@@ -136,7 +136,6 @@ margin-top: 110px;
     font-size: 18px;
     text-align: center;
     align-items: center;
-    margin-left: 200px;
 }
 
 .skill-column {
@@ -226,7 +225,7 @@ footer {
 @media (min-width: 993px) and (max-width: 1366px) {
     .page-content {
         font-size: 18px;
-        margin: 0 60px;
+        padding: 0 60px;
     }
 
     .hero-greeting {
@@ -315,16 +314,16 @@ footer {
     }
     
     .skill-image {
-        max-height: 80px;
+        max-height: 60px;
     }
 
     .skill-image-vscode {
-        max-height: 60px;
+        max-height: 40px;
         align-self: baseline;
     }
 
     .skill-image-js {
-        max-height: 70px;
+        max-height: 50px;
     }
     
     .story-heading {
@@ -381,7 +380,8 @@ footer {
 @media (min-width: 769px) and (max-width: 992px) {
     .page-content {
         font-size: 18px;
-        margin: 0 60px;
+        padding: 0 60px;
+        margin: -40px;
     }
 
     .hero-greeting {
@@ -412,7 +412,7 @@ footer {
     }
     
     .projects-content {
-        margin-left: 0px;
+        margin: 0 auto ;
     }
 
     .project-name {
@@ -445,7 +445,7 @@ footer {
     .skills-certificates-wrapper {
         font-size: 18px;
         row-gap: 50px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
     
     .skill-column {
@@ -471,15 +471,15 @@ footer {
     }
     
     .skill-image {
-        max-height: 80px;
+        max-height: 60px;
     }
 
     .skill-image-js {
-        max-height: 70px;
+        max-height: 40px;
     }
 
     .skill-image-vscode {
-        max-height: 60px;
+        max-height: 50px;
     }
     
     .story-heading {
@@ -535,7 +535,7 @@ footer {
 @media (min-width: 577px) and (max-width: 768px) {
     .page-content {
         font-size: 16px;
-        /* margin: 0 60px; */
+        margin: 0;
     }
 
     .hero-greeting {
@@ -543,7 +543,7 @@ footer {
     }
 
     .hero {
-        margin-top: 60px;
+        margin: 60px 98px 0 98px ;
         font-size: 16px;
         gap: 0px;
     }
@@ -638,7 +638,6 @@ footer {
     .skills-certificates-wrapper {
         font-size: 18px;
         row-gap: 50px;
-        margin-left: 20px;
     }
     
     .skill-column {
@@ -728,7 +727,6 @@ footer {
 @media (max-width: 576px) {
     .page-content {
         font-size: 16px;
-        /* margin: 0 60px; */
     }
 
     .hero-greeting {
@@ -736,9 +734,7 @@ footer {
     }
 
     .hero {
-        margin-top: 60px;
-        margin-left: 30px;
-        margin-right: 30px;
+        margin: 60px 60px 0 60px;
         font-size: 16px;
         gap: 0px;
         flex-direction: column-reverse;
@@ -784,7 +780,7 @@ footer {
     .projects-content {
         margin-left: 0px;
         background-color: #f8f9fa;
-        padding-bottom: 30px;
+        padding: 0 30px 30px 30px;
     }
 
     .project-name {
@@ -835,11 +831,13 @@ footer {
     .skills-certificates-wrapper {
         font-size: 18px;
         row-gap: 50px;
-        margin-left: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
     
     .skill-column {
         align-items: left;
+        padding: 0;
     }
     
     .skill-heading {
@@ -853,7 +851,7 @@ footer {
     
     .skill-description {
         text-align: left;
-        margin: 6px 10px 0 0;
+        margin: 6px 0 0 0;
         gap: 10px;
         font-size: 16px;
         align-items: center;
