@@ -29,6 +29,12 @@ body {
     border: none;
 }
 
+.nav-link:focus,
+.nav-link:active,
+.nav-link:hover {
+    color:rgba(0, 0, 0, 0.5)
+}
+
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -793,7 +799,7 @@ footer {
     
     .projects-content {
         margin-left: 0px;
-        background-color: #f8f9fa;
+        background-color: var(--background-color);
         padding: 0 30px 30px 30px;
     }
 
