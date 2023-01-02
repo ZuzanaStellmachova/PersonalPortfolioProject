@@ -1,6 +1,7 @@
 :root {
     --main-color: #7755FE;
     --hover-color: #6447da;
+    --background-color: #7755fe07;
     --main-font: "Poppins", sans;
 }
 body {
@@ -15,10 +16,13 @@ body {
 
 .navbar {
     font-family: var(--main-font);
+    background-color: var(--background-color);
 }
 
 .navbar-brand {
     font-family: var(--main-font);
+    font-weight: bold;
+    color: var(--main-color);
 }
 
 .hero-greeting {
@@ -104,7 +108,6 @@ body {
 
 .project-row {
 margin-top: 110px;
-/* column-gap: 20px; */
 }
 
 .project-row:first-child {
@@ -586,7 +589,7 @@ footer {
     
     .projects-content {
         margin-left: 0px;
-        background-color: #f8f9fa;
+        background-color: var(--background-color);
         padding-bottom: 30px;
     }
 
